@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE VOTTING[
+
+<!ELEMENT VOTTING (Country )>
+<!ELEMENT Country (department)>
+<!ATTLIST Country name ANY #REQURED>
+<!ELEMENT department (candidato*, zona)>
+<!ATTLIST   department name CDATA #FIXED, located (N|S) #IMPLIED )>
+<!ELEMENT candidato (#PCDATA)>
+<!ATTLIST  candidato numVot ANY #REQURED>
+<!ELEMENT zona EMPTY>
+]>
+
+<VOTTING>
+ <Country name= "Colombia" >
+	<department name="Bogota.D.C" located="N">
+                 <candidato numVot="100" >Petro </candidato> 	 
+                 <candidato numVot="70" >Rodolfo  </candidato> 	 
+	<zona/>
+	</department>
+	<department name="Choco" located="W">
+                 <candidato numVot="90" >Petro </candidato> 	 
+                 <candidato numVot="20" >Rodolfo  </candidato> 	 
+                 <zona/>
+	</department>
+	<department name="Amazonas" located="S">
+                 <candidato numVot="80" >Petro </candidato> 	 
+                 <candidato numVot="50" >Rodolfo  </candidato> 	 
+	<zona/>
+	</department>
+  </Country>
+</VOTTING>

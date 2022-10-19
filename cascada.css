@@ -1,0 +1,20 @@
+body {
+background-image:url("finterface/pimage/je.jpg");
+background-size:cover;
+font-weight:bold;
+text-align:center;
+
+}
+h1{color:green;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+h2{color: orange;
+font-size: 50px;
+margin-top: 0px;
+margin-bottom: 20px;
+}
+button {
+border:none;
+padding-top:10px;
+}

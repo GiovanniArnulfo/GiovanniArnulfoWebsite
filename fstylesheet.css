@@ -1,0 +1,84 @@
+ 
+td{text-align:center;
+spacing:0px
+
+} 
+.margine{
+border-style:inset; padding-left:15px; 
+padding-bottom:15px;
+border-width:10px;
+border-color: orange; 
+background-color:white
+ }
+.bolivar{
+border-width:5px 0px 20px 30px;
+border-style: groove none dotted ridge ;
+padding: 0%10% 0% 20%;
+ 
+border-color: black black red blue ;
+ 
+
+background-color:yellow;
+font-style: italic;
+font-weight:bolder;
+font-size:20px;
+margin-bottom: 5px
+
+}
+.trigger{
+text-indent:10%
+}
+dt {
+letter-spacing:-2px
+}
+.link{
+text-decoration:none
+}
+h1 {
+text-decoration:overline}
+p { font-size: 200% ;color: green  ;background-color: black ;font-family:"Zapf-Chancery", cursive
+} 
+
+a: link {
+  color: red
+}
+a: visited{
+   color: blue
+}
+ a: focus {
+  color: black
+}
+a: hover{
+    color: yelow
+}
+a: active: {
+    color : orange
+} 
+h3, ol {
+color:blue; 
+}
+hr{
+color:orange;
+background-color:orange;
+height:5px;
+width:60%;  
+align: left;
+} 
+ol {
+ list-style-type:upper-alpha
+}
+ol ul{
+ list-style-type:disc
+}
+ol ul ol {
+list-style-type:decimal
+}
+.cough{
+color: orange
+}
+#s{
+i ; color:violet
+}
+  ul {
+list-style-type: square
+}  

@@ -1,0 +1,53 @@
+#masthead{ background-image: url (walum.jpg)
+}
+#bottomnav{background-color:yellow; 
+ 
+}
+article{margin:20px;
+clear: left;
+top:350px;
+width:200px
+}
+paragraph1{color: green;
+position:absolute;
+top:400px;
+left:250px;
+width:150px
+}
+paragraph2{color: blue;
+position:absolute;
+top:400px;
+left:450px;
+width:150px
+}
+
+aside{width: 100px;
+          clear: left
+}
+
+
+#main{
+color: green;
+width:150px;
+height:200px;
+position:fixed;
+right:80px;
+top:0px;
+}
+#topnav{margin:20px;
+width:180px;
+float:left;
+border-style:ridge;
+border-color:yellow;
+border-width:10px;
+}
+nav
+{font-style:oblique
+}
+
+h3{
+background-color: orange;
+font-weight:bolder;    
+}
+{background-image:"cat.jpg";
+}
